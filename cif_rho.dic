@@ -14,13 +14,11 @@ data_CIF_RHO
     _dictionary.title             CIF_RHO
     _dictionary.class             Instance
     _dictionary.version           2.0.3
-    _dictionary.date              2026-04-15
+    _dictionary.date              2026-04-16
     _dictionary.uri
-;\
-https://raw.githubusercontent.com/COMCIFS/Electron_Density_\
-Dictionary/master/cif_rho.dic
-;
+https://raw.githubusercontent.com/COMCIFS/cif_rho/refs/heads/main/cif_rho.dic
     _dictionary.ddl_conformance   4.2.0
+    _dictionary.licensing_SPDX    CC-BY-4.0
     _dictionary.namespace         CifCore
     _description.text
 ;
@@ -2059,7 +2057,7 @@ save_
 save_atom_rho_multipole_radial_slater.n4_su
 
     _definition.id                '_atom_rho_multipole_radial_slater.n4_su'
-    _definition.update            2026-04-15
+    _definition.update            2026-04-16
     _description.text
 ;
     Standard uncertainty of _atom_rho_multipole_radial_slater.n4.
@@ -2304,7 +2302,7 @@ save_
 save_atom_rho_multipole_radial_slater.zeta4_su
 
     _definition.id                '_atom_rho_multipole_radial_slater.zeta4_su'
-    _definition.update            2026-04-15
+    _definition.update            2026-04-16
     _description.text
 ;
     Standard uncertainty of _atom_rho_multipole_radial_slater.zeta4.
@@ -2425,6 +2423,15 @@ save_atom_rho_multipole_radial_slater.zeta_list_su
 
 save_
 
+#=============================================================================
+#  The dictionary's creation history.
+#============================================================================
+
+    _dictionary_author.id         1
+    _dictionary_author.name       'Mallinson, P. R.'
+    _dictionary_author.id_orcid   .
+    _dictionary_author.email      .
+
     loop_
       _dictionary_audit.version
       _dictionary_audit.date
@@ -2437,7 +2444,7 @@ save_
 ;
        Update import statements, improve DDLm conformance.
 ;
-         2.0.3                    2026-04-15
+         2.0.3                    2026-04-16
 ;
        Further improve DDLm conformance. Add missing su data names.
 
