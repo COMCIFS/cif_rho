@@ -14,7 +14,7 @@ data_CIF_RHO
     _dictionary.title             CIF_RHO
     _dictionary.class             Instance
     _dictionary.version           2.0.3
-    _dictionary.date              2026-04-16
+    _dictionary.date              2026-05-02
     _dictionary.uri
         https://raw.githubusercontent.com/COMCIFS/cif_rho/main/cif_rho.dic
     _dictionary.ddl_conformance   4.2.0
@@ -2444,7 +2444,7 @@ save_
 ;
        Update import statements, improve DDLm conformance.
 ;
-         2.0.3                    2026-04-16
+         2.0.3                    2026-05-02
 ;
        Further improve DDLm conformance. Add missing su data names.
 
